@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Logo = styled.img`
     width: 6em;
     border:1px solid #131A22;
-    padding: .2em .1em .2em .1em;
+    padding: .2em .1em ;
     cursor:pointer;
 
     &:hover{
@@ -30,8 +30,8 @@ export const Text = styled(NavText)`
 export const Wrapper = styled(NavItemWrapper)`
     display: flex;
     flex-direction: ${(props)=>props.flexDirection ? props.flexDirection  : "column"};
-    align-items:  ${(props)=>props.alignItems ? props.alignItems  : "left"};
-    padding: .1em .1em .1em .1em;
+    align-items:  ${(props)=>props.alignItems ? props.alignItems  : "flex-start"};
+    padding: .1em ;
     cursor:pointer;
     border:1px solid #131A22;
 
