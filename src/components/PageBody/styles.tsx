@@ -48,11 +48,12 @@ export const SearchResultDiv = styled.div`
 `
 export const ProductContainer = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 22em);
     margin-top: 2em;
 `
 export const ImageContainer = styled.div`
-    height:15vw;
+    /* height:15vw; */
+    height: 14em;
     display: flex;
     align-items: center;
 `
