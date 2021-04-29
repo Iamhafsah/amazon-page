@@ -1,12 +1,10 @@
 import styled from "styled-components"
-import MenuText from "./MenuText"
-import MenuItemWrapper from "./MenuItemWrapper"
-
+import{ PageText as MenuText} from "../helpers/PageText"
+import{ PageItemWrapper as MenuItemWrapper} from "../helpers/ItemWrapper"
 
 export const Container = styled.div`
 display: flex;
 justify-content:space-between;
-/* align-items: center; */
 color: white;
 padding: .3em;
 background-color: #232f3e;
@@ -17,7 +15,7 @@ export const Text = styled(MenuText)`
     font-size: ${(props)=>props.fontSize ? props.fontSize  : ".9em"};
     margin-right: 1em;
     border:1px solid #232f3e;
-    padding: .5em .1em .5em .1em;
+    padding: .5em .1em ;
     cursor:pointer;
 
 

@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import NavText from "./NavText"
-import NavItemWrapper from "./NavItemWrapper"
+import{ PageText as NavText} from "../helpers/PageText"
+import{ PageItemWrapper as NavItemWrapper} from "../helpers/ItemWrapper"
 
 
 export const Container = styled.div`

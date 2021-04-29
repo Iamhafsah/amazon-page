@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import PageText from "./PageText"
-import PageItemWrapper from "./PageItemWrapper"
+import {PageText} from "../helpers/PageText"
+import {PageItemWrapper} from "../helpers/ItemWrapper"
 
 
 export const Container = styled.div`

@@ -5,10 +5,9 @@ interface Props{
     fontSize?: any;
     color?: string;
 }
-const MenuText:React.FC <Props> = ({className, children}) => {
+export const PageText:React.FC <Props> = ({className, children}) => {
     return (
        <span className={className}>{children}</span>
     )
 }
 
-export default MenuText

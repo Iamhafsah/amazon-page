@@ -4,11 +4,12 @@ interface Props{
     className?: string;
     flexDirection?: string;
     alignItems?: string;
+    maxWidth?: string;
+    margin?: string;
 }
-const MenuItemWrapper:React.FC <Props> = ({className, children}) => {
+export const PageItemWrapper:React.FC <Props> = ({className, children}) => {
     return (
        <div className={className}>{children}</div>
     )
 }
 
-export default MenuItemWrapper
