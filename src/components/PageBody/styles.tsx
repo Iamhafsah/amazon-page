@@ -9,14 +9,14 @@ export const Container = styled.div`
 `
 
 export const LeftContainer = styled.section`
-    height:100vh;
+    height:80vh;
     width: 18vw;
     border-right: 2px solid #ddd;
 `
 
 export const RightContainer = styled.section`
-    height:100vh;
-    width: 88vw;
+    height:80vh;
+    width: 82vw;
     display: flex;
     flex-direction: column;
     margin-left: 1.5em;
