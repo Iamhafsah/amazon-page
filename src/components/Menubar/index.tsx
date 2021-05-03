@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Wrapper, Text} from "./styles"
+import {Container, Wrapper, Text, LeftText} from "./styles"
 import {Menu} from '@material-ui/icons';
 
 const Menubar:React.FC = () => {
@@ -22,7 +22,7 @@ const Menubar:React.FC = () => {
             </Wrapper>
 
             <Wrapper>
-                <Text>Amazon's response to COVID-19</Text>
+                <LeftText>Amazon's response to COVID-19</LeftText>
             </Wrapper>
            
         </Container>

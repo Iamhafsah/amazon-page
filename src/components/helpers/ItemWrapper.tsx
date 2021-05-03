@@ -2,6 +2,7 @@ import React from 'react'
 
 interface Props{
     className?: string;
+    display?: string;
     flexDirection?: string;
     alignItems?: string;
     maxWidth?: string;

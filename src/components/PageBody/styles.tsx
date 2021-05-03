@@ -8,10 +8,14 @@ export const Container = styled.div`
     padding: 1em;
 `
 
-export const LeftContainer = styled.section`
+export const LeftContainer = styled.aside`
     height:80vh;
     width: 18vw;
     border-right: 2px solid #ddd;
+   
+   @media(max-width:650px){
+        display: none
+   }
 `
 
 export const RightContainer = styled.section`
@@ -48,11 +52,16 @@ export const SearchResultDiv = styled.div`
 `
 export const ProductContainer = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, 22em);
+    grid-template-columns: repeat(auto-fit, 21em);
     margin-top: 2em;
+
+    @media(max-width:915px){
+        grid-template-columns: repeat(auto-fit, 15em);
+        align-items: center;
+        justify-content: center;
+    }
 `
 export const ImageContainer = styled.div`
-    /* height:15vw; */
     height: 14em;
     display: flex;
     align-items: center;

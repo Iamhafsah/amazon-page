@@ -23,6 +23,16 @@ export const Text = styled(MenuText)`
         border:1px solid #ffffff;
         border-radius: .2em;
     }
+
+    @media(max-width:850px){
+        display: none;
+    }
+`
+
+export const LeftText = styled(Text)`
+    @media(max-width:850px){
+        display: block;
+    }
 `
 
 export const Wrapper = styled(MenuItemWrapper)`
