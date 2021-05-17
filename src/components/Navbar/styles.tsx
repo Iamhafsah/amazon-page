@@ -36,8 +36,7 @@ export const Wrapper = styled(NavItemWrapper)`
     border:1px solid #131A22;
 
     &:hover{
-        border:1px solid #ffffff;
-        border-radius: .2em;
+         color: #fabd60;
     }
 
     @media(max-width:850px){
