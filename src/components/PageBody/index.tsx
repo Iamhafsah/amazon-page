@@ -16,7 +16,7 @@ import {
 import {KeyboardArrowLeft, Star, StarHalf, KeyboardArrowDown} from '@material-ui/icons';
 import {departmentList, productDetails} from "./PageInfo"
 
-const Menubar:React.FC = () => {
+const PageBody:React.FC = () => {
     return (
         <Container>
             <LeftContainer>
